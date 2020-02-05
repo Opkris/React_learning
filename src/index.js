@@ -1,12 +1,45 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react"
+import ReactDOM from "react-dom"
+import MyInfo from "./MyInfo";
+/*
+    render() Render a React element into the DOM in the supplied container and return a reference to the
+    component (or returns null for stateless components). ... any existing DOM elements inside are replaced
+    when first called. Later calls use React's DOM diffing algorithm for efficient updates.
+ */
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render("What i want to render", "Where do i want to render it") // render takes in 2 parameters.
+// ReactDOM.render("What i want to render", document.getElementById("root"))
+/**ReactDOM.render(<h1>Hello World from index.js</h1>, document.getElementById("root"));**/
+/*
+    if i want to add multiple parameters in the render like a <h1> with a paragraph <p>, i need to wrap it in some
+    thing that it looks like one parameter
+*/
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+/*
+function MyApp(){
+
+    // we dont need to wrap the return in () but its good practice
+    return (
+        <ul>
+            <li>Boat</li>
+            <li>Bike</li>
+            <li>Car</li>
+        </ul>)
+}
+
+ReactDOM.render(
+    <MyApp/>
+    ,
+    document.getElementById("root"));
+*/
+
+
+ReactDOM.render(<MyInfo/>, document.getElementById("root"));
+
+/*
+    If you want your app to work offline and load faster, you can change
+    unregister() to register() below. Note this comes with some pitfalls.
+    Learn more about service workers: https://bit.ly/CRA-PWA
+    serviceWorker.register();
+ */

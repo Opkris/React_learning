@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  font-size: 24em;
+  color: black;
+}
+ul{
+  font-size: 16em;
+  color: red;
+ }
+
+#myList{
+  color: purple;
+}
+
+p{
+  font-size: 18em;
+  color: dimgray;
+  font-style: italic;
+}

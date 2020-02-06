@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
 }
 
 code {
@@ -14,7 +15,7 @@ code {
 
 h1{
   font-size: 24em;
-  color: black;
+  color: yellow;
 }
 ul{
   font-size: 16em;
@@ -29,4 +30,7 @@ p{
   font-size: 18em;
   color: dimgray;
   font-style: italic;
+}
+.navbar{
+  background-color: orange;
 }

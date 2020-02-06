@@ -1,36 +1,84 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: bisque;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 h1{
-  font-size: 24em;
-  color: yellow;
-}
-ul{
-  font-size: 16em;
-  color: red;
- }
-
-#myList{
-  color: purple;
+  font-size: 2em;
+  color: orange;
+  background-color: #282c34;
+  padding: 20px;
 }
 
-p{
-  font-size: 18em;
-  color: dimgray;
-  font-style: italic;
-}
 .navbar{
   background-color: orange;
+  font-size: 1.5em;
+  height: 100px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+
+  background-color: dimgray;
+  color: darkorange;
+  padding: 15px;
+}
+.todo-list{
+  background-color: #282c34;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid goldenrod;
+  padding: 30px;
+}
+
+.todo-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid goldenrod;
+  font-family: "Arial Nova";
+  font-size: 15px;
+  color: wheat;
+}
+
+input[type = checkbox]{
+  margin-right: 10px;
+  font-size: 50px;
+}
+.contact-card{
+  color: white;
+}
+img {
+  max-width: 10em;
+  height: auto;
+}
+.Joke{
+  color: white;
+  padding: 5px;
+  border: 1px solid goldenrod;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+p{
+  color: red;
 }

@@ -1,6 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import MyInfo from "./MyInfo";
+import App from "../src/APP/App"
+
+//import MyInfo from "./JS/MyInfo";
 /*
     render() Render a React element into the DOM in the supplied container and return a reference to the
     component (or returns null for stateless components). ... any existing DOM elements inside are replaced
@@ -14,6 +16,12 @@ import MyInfo from "./MyInfo";
     if i want to add multiple parameters in the render like a <h1> with a paragraph <p>, i need to wrap it in some
     thing that it looks like one parameter
 */
+
+ReactDOM.render(<App/>,document.getElementById("root"));
+
+
+
+
 
 
 /*
@@ -34,8 +42,14 @@ ReactDOM.render(
     document.getElementById("root"));
 */
 
-
+/*
+    here we need to import the function from another file. you can se how to do it above
 ReactDOM.render(<MyInfo/>, document.getElementById("root"));
+*/
+
+
+
+
 
 /*
     If you want your app to work offline and load faster, you can change

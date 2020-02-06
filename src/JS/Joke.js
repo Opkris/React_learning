@@ -1,10 +1,10 @@
 import React from "react";
 
 
-export function Jokes(props) {
+export function Joke(props) {
 
     return(
-        <div className={"Jokes"}>
+        <div className={"Joke"}>
             <h3>Joke: {props.content.Joke}</h3>
             <p>PunchLine: {props.content.punchLine}</p>
 
